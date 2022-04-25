@@ -194,8 +194,8 @@ export const FlexContainer = styled.div`
 
 export const connectButton = styled.button`
   width:100%;
-  padding:10px;
-  background-color: transparent;
+  padding:14px;
+  background-color: #8787874f;
   color: var(--web-theme);
   font-family: 'wonder';
   text-align:center;
