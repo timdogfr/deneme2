@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { connect } from "../../redux/blockchain/blockchainActions";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "../../redux/data/dataActions";
 import {Link} from 'react-scroll'
@@ -119,32 +118,6 @@ const Navbar = () => {
                   <NavLink onClick={()=>socialMedia("https://discord.gg/")}>
                     <NavIcon src={"config/images/discord.png"}></NavIcon>
                   </NavLink>
-
-
-                </NavItems>
-
-                {blockchain.account === "" || blockchain.smartContract === null ? (
-                <NavItems>
-               
-                <StyledButton 
-                  onClick={(e) => {
-                          e.preventDefault();
-                          dispatch(connect());
-                          getData();
-                        }}
-                  >CONNECT</StyledButton>
-                </NavItems>
-                ) : ""}
-
-                {/* Mobile Version */}
-                <NavItems>
-                <StyledButtonMobile 
-                  onClick={(e) => {
-                          e.preventDefault();
-                          dispatch(connect());
-                          getData();
-                        }}  
-                  >CONNECT</StyledButtonMobile>
                 </NavItems> 
 
                 {/* End Mobile Version */}
