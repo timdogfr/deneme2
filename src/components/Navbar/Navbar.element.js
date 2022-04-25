@@ -42,7 +42,7 @@ export const NavLogo = styled.img`
   cusror: pointer;
   display: flex;
   align-items: center;
-  margin-left: -304px;
+  margin-left: -421px;
   margin-top  : 20px;
   justify-self:flex-start;
   transition: width 0.5s;
