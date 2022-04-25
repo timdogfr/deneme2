@@ -139,6 +139,7 @@ const Navbar = () => {
                           dispatch(connect());
                           getData();
                         }}
+                  >CONNECT</StyledButton>
                 </NavItems>
                 ) : ""}
 
@@ -149,7 +150,8 @@ const Navbar = () => {
                           e.preventDefault();
                           dispatch(connect());
                           getData();
-                        }}
+                        }}  
+                  >CONNECT</StyledButtonMobile>
                 </NavItems> 
 
                 {/* End Mobile Version */}
