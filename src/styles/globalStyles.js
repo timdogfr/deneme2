@@ -207,13 +207,14 @@ export const connectButton = styled.button`
 `;
 
 export const maxButton = styled.button`
-  position: absolute;
-  width: 121px;
-  height: 60px;
-  left: 1127px;
-  top: 489px;
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width:25%;
+  background :  var(--web-theme);
+  height:50px;
+  border-radius:10px;
+  font-family: 'wonder';
+  font-size:1.5rem;
+  position:relative;
+  margin-left:auto;
 
   @media screen and (max-width: 768px) {
     position: relative;
