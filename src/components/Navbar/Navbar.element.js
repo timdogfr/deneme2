@@ -119,7 +119,7 @@ export const NavMenu = styled.ul`
     color:#fff;
     align-items:center;
     height:100%;
-    padding:109 1rem;
+    padding:109px 1rem;
     display:flex;
     cursor:pointer;
     font-family: 'wonder';
