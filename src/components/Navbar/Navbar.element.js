@@ -204,7 +204,7 @@ export const NavMenu = styled.ul`
     justify-content:center;
     vertical-align:middle;
     margin:10px auto;
-    width:48px;
+    width:33px;
 
     @media screen and (max-width: 960px) {
       display:flex;
