@@ -122,9 +122,9 @@ const Navbar = () => {
                     <NavIcon src={"config/images/discord.png"}></NavIcon>
                   </NavLink>
                 </NavItems>
-                <NavItems style={{paddingLeft:"0px"}}>
-                  <NavLink onClick={()=>socialMedia("https://twitter.com/")}>
-                    <NavIcon src={"config/images/twitter.png"}></NavIcon>
+                <NavItems style={{paddingLeft:"20px"}}>
+                  <NavLink onClick={()=>socialMedia("https://discord.gg/")}>
+                    <NavIcon src={"config/images/discord.png"}></NavIcon>
                   </NavLink>
 
 
