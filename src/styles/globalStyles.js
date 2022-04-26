@@ -212,9 +212,9 @@ export const maxButton = styled.button`
   border-radius:11px;
   font-family: 'Montserrat';
   font-style: normal;
-  font-size: 40px;
-  position:relative;
-  margin-left:auto;
+  font-size: 15px;
+  position: relative;
+  margin-left: auto;
 
   @media screen and (max-width: 768px) {
     position: relative;
