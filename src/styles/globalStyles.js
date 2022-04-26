@@ -212,8 +212,9 @@ export const maxButton = styled.button`
   background: #c5b2964a;
   height:46px;
   border-radius:11px;
-  font-family: 'wonder';
-  font-size:1.5rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 40px;
   position:relative;
   margin-left:auto;
 
