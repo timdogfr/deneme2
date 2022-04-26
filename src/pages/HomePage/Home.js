@@ -168,7 +168,7 @@ function Home() {
         jc={"space-evenly"}
         ai={"center"}
         fd={"row"}
-        mt={"-65vh"}
+        mt={"-70vh"}
         style={{
           zIndex: "1",
          
