@@ -17,6 +17,8 @@ export const Body = styled.div`
   background-image: url('config/images/bg.png') ;
   background-size: cover;
   background-position: 100% 100%;
+  background-attachment:fixed;
+  background-size:100% 100%;
   opacity: 0.2;
   top: 0;
   left: 0;
