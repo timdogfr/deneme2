@@ -50,7 +50,7 @@ export const NavLogo = styled.img`
   padding-bottom:2vh;
   @media (min-width: 767px) {
     width: 180px;
-    margin-top  : -64px;
+    margin-top  : -55px;
   }`;
 
   
