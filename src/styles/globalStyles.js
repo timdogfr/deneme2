@@ -24,7 +24,6 @@ export const Body = styled.div`
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;
   }
  
 `;
