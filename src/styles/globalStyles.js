@@ -138,7 +138,7 @@ column-gap:${({ gap }) => (gap ? gap+"%" : "20%")};
 `;
 
 export const Mint = styled.div`
-  padding:85px 60px;
+  padding:47px 60px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius:17px;
   width:28%;
