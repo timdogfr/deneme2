@@ -49,8 +49,8 @@ export const NavLogo = styled.img`
   transition: height 0.5s;
   padding-bottom:2vh;
   @media (min-width: 767px) {
-    width: 190px;
-    margin-top  : -15px;
+    width: 180px;
+    margin-top  : -64px;
   }`;
 
   
