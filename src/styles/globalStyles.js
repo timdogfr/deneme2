@@ -211,8 +211,8 @@ export const maxButton = styled.button`
   height:46px;
   border-radius:11px;
   font-family: 'Montserrat';
-  font-style: normal;
-  font-size: 15px;
+  font-style: Bold;
+  font-size: 19px;
   position: relative;
   margin-left: auto;
 
