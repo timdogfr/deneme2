@@ -7,7 +7,7 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 10px 30px;
   font-family: 'cocogoose';
-  color:#000;
+  color:#F6A307;
   width: auto;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
