@@ -98,7 +98,7 @@ export const NavMenu = styled.ul`
 
 
   export const NavItems = styled.li`
-    height:118px;
+    height:177px;
     padding-left:24px;
     list-style: none;
     $:hover{
