@@ -208,9 +208,9 @@ export const connectButton = styled.button`
 
 export const maxButton = styled.button`
   width:25%;
-  background :  var(--web-theme);
-  height:50px;
-  border-radius:10px;
+  background: #c5b2964a;
+  height:46px;
+  border-radius:11px;
   font-family: 'wonder';
   font-size:1.5rem;
   position:relative;
