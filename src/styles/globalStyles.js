@@ -138,10 +138,10 @@ column-gap:${({ gap }) => (gap ? gap+"%" : "20%")};
 `;
 
 export const Mint = styled.div`
-  padding:40px 60px;
+  padding:85px 60px;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius:25px;
-  width:30%;
+  border-radius:17px;
+  width:28%;
 
   @media screen and (max-width: 768px) {
     width:95%;
