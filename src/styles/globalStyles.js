@@ -16,15 +16,16 @@ export const Body = styled.div`
   content: "";
   background-image: url('config/images/bg.png') ;
   background-size: cover;
-  background-position: 100% 100%;
+  background-position: auto;
   background-attachment:fixed;
   background-size:100% 100%;
+  background-repeat:no-repeat;
   opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
+  position: auto;
   z-index: -1;
   }
  
