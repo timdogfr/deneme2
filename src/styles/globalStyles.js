@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const Body = styled.div`
   
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -22,7 +21,6 @@ export const Body = styled.div`
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
   }
  
 `;
